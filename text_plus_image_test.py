@@ -16,7 +16,7 @@ image = ["40_40.jpg", "60_400.jpg", "400_600.jpg", "600_40.jpg", "600_400.jpg"]
 text = ['cat', 'cat dog', 'cat dog bird monkey lion', 'cat dog bird monkey lion ' * 20]
 
 for img in image:
-    image_path = '../data/' + img
+    image_path = './data/' + img
     output_folder = './text_plus_image_output'
     if not os.path.exists(output_folder):
         try:
