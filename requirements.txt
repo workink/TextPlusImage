@@ -1,2 +1,2 @@
 absl-py==0.8.1
-Pillow==6.2.1
+Pillow==9.0.1
